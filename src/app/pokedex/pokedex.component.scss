@@ -1,0 +1,26 @@
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 12px;
+    margin-top: 100px;
+    padding-top: 12px;
+}
+
+.pokedex__item {
+    background-color: #b8d1ff;
+    border: 1px solid #e8f0ff;
+    border-radius: 7px;
+}
+
+.padding-child {
+    width: 98px;
+    height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .pokedex {
+        margin-top: 126.66px;
+        gap: 12px;
+    }
+}

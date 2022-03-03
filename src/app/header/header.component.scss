@@ -1,0 +1,68 @@
+@font-face {
+    font-family: pokemon;
+    src: url("/assets/pokemon-solid2.ttf");
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: #1265ff;
+    padding: 0.5em 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    span {
+        font-family: pokemon;
+        font-size: 1.5em;
+        color: #d2e2ff;
+        text-shadow: 0.2em 0.2em #103986;
+    }
+}
+
+.logo {
+    width: 7em;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-content {
+        max-width: 768px;
+    }
+
+    .logo {
+        width: 12em;
+    }
+
+    .title span {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .header-content {
+        max-width: 992px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-content {
+        max-width: 1200px;
+    }
+}

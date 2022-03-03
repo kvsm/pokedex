@@ -1,0 +1,16 @@
+<div class="pokedex">
+    <div class="pokedex__item" *ngFor="let pokemon of pokedex | nameFilter: searchService.term">
+        <app-pokemon [pokemon]="pokemon"></app-pokemon>
+    </div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+    <div class="padding-child"></div>
+</div>

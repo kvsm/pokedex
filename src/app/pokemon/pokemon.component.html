@@ -1,0 +1,7 @@
+<div *ngIf="pokemon">
+    <figure class="pokemon-card">
+        <img src="{{pokemon.sprites.front_default}}" width="96px" height="96px"
+            alt="The in-game graphic for {{pokemon.name | titlecase}}">
+        <figcaption>{{pokemon.name | titlecase}}</figcaption>
+    </figure>
+</div>
